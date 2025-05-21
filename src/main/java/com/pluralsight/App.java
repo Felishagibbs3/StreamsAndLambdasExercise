@@ -26,6 +26,9 @@ public class App {
                 System.out.println(c.getName() + " (" + c.getMass() + ")");
             }
         }
+        for (Character c : filtered) {
+            System.out.println(c.getName() + "(" + c.getMass() +")");
+        }
 
         // 3. Create a list of just names
         System.out.println("\n=== Character Names ===");
